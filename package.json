@@ -2,8 +2,14 @@
   "name": "rikus-vue-components",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/rikus-vue-components.es.js",
-  "module": "dist/rikus-vue-components.umd.js",
+  "main": "./dist/rikus-vue-components.es.js",
+  "module": "./dist/rikus-vue-components.umd.js",
+  "exports": {
+    ".": {
+      "import": "./dist/rikus-vue-components.es.js",
+      "require": "./dist/rikus-vue-components.umd.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
