@@ -1,3 +1,3 @@
-import mycompnent from "./mycomponent.vue";
+import mycomponent from "./mycomponent.vue";
 
 export default mycomponent;
