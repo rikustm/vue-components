@@ -11,7 +11,7 @@ export default defineConfig({
       fileName: (format) => `rikus-vue-components.${format}.js`,
     },
     rollupOptions: {
-      external: ["vue"],
+      external: ["vue", "xlsx"],
       output: {
         globals: {
           vue: "Vue",
