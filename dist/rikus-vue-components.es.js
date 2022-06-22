@@ -136,4 +136,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   ]);
 }
 var Table = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
-export { Table as default };
+var index = { Table };
+export { index as default };
