@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, "src/index.js"),
       name: "rikus-vue-components",
-      fileName: (format) => `my-lib.${format}.js`,
+      fileName: (format) => `rikus-vue-components.${format}.js`,
     },
     rollupOptions: {
       external: ["vue"],
